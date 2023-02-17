@@ -1,0 +1,261 @@
+body{
+    margin: 5px 0px 5px 0px ;
+    padding: 5px 5px 5px 5px;
+
+    
+    
+
+}
+ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+
+}
+
+a:hover {
+    color: rgb(209 26 76);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    padding: 7px;
+    
+
+}
+
+
+.secondflex {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.second {
+    padding: 30px;
+    padding-top: 140px;
+
+}
+
+.third {
+    /* padding-left: 35%; */
+}
+
+.thirdimg {
+    height: auto;
+    width: 100%;
+}
+
+.fourth {}
+
+.flexfourth {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 180px;
+    background-color: #ada9a9;
+    padding: 30px;
+
+
+}
+
+.flexexpertise {
+    border: 2px solid rgb(209 26 76);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+    justify-content: space-around;
+    background-color: rgb(209 26 76);
+    color: whitesmoke;
+}
+
+
+.fifth {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px 100px 0px;
+
+    margin-top: 100px;
+
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgb(209 26 76);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: rgb(209 26 76);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row {
+    content: "";
+    display: flex;
+    ;
+
+    justify-content: center;
+
+    font-weight: bold;
+    /* font-style: ; */
+
+}
+.parallelform{
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+.parallelform h1{
+    font-family:Georgia, 'Times New Roman', Times, serif; font-style: italic;text-align: center; padding:  0 0; font-size:50px;
+    
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+.footer{
+   display: flex;
+   justify-content: center;
+   background-color: #afa6a6;
+   margin-top: 50px;
+   
+}
+.iconpadding{
+    padding: 7px 10px 7px 10px;
+}
+   
+
+
+@media  screen and (max-width:1100px) {
+
+    .third {
+        align-items: center;
+
+    }
+
+    .thirdimg {
+        height: 80%;
+        width: 50%;
+        padding-top: 30px;
+    }
+    .fifth{
+        padding:0px 80px 0px 80px  ;
+    }
+    
+    .parallelform h1{
+        font-size: 35px;
+        justify-content: center;
+        padding: 20px;
+    }
+    .form{
+        padding: 30px;
+    }
+    .second{
+      padding: 35px;
+    }
+
+
+}
+@media screen and (max-width:601px) {
+    .secondflex{
+        flex-direction: column;
+        margin-top: 30px;
+        
+        
+
+    }
+    .third{
+        display: flex;
+        justify-content: center;
+    }
+    .flexfourth{
+       padding: 19px;
+       margin-top: 120px;
+    }
+    .flexexpertise{
+        padding: 16px;
+    }
+    .fifth{
+        flex-direction: column;
+        padding: 0px 36px 0px 0px;
+    }
+    .first{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px 20px 0px;
+        
+    }
+    .navbar{
+        padding: 20px 0px 0px 0px
+    }
+    .navbar li a{
+        font-size: 14px;
+    }
+    
+  
+}
+
